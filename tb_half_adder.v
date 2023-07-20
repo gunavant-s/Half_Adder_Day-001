@@ -27,10 +27,10 @@ module tb_half_adder;
     half_adder HA(.a(a),.b(b),.carry(carry),.sum(sum));
     
     initial begin
-        #5; a = 0; b = 0;
-        #5; a = 0; b = 1;
-        #5; a = 1; b = 0;
-        #5; a = 1; b = 1;
-        $stop;
+        #5 a = 0; b = 0;
+        #5 a = 0; b = 1;
+        #5 a = 1; b = 0;
+        #5 a = 1; b = 1;
+        #5 $stop;
     end 
 endmodule
