@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Gunavant
 // 
 // Create Date: 20.07.2023 07:42:31
 // Design Name: 
 // Module Name: half_adder
-// Project Name: 
+// Project Name: half_adder
 // Target Devices: 
 // Tool Versions: 
 // Description: 
